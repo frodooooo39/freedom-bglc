@@ -27,52 +27,51 @@
   </head>
 
   <body>
+    <div id="" class="headerPart">
+      <div class="logoContainer"><img src="freedom_images/logo89x80 .png" alt="Freedom">
+        <div><label>BANGLA-GERMAN</label><br><label>LATEX CO. LTD.</label></div>
+      </div>
+      <div class="menuContainer">
+        <ul class="nav">
+          <li class="navitem"><a href="" class="navItemlink" showId="div-1">HOME</a></li>
+          <li class="navitem"><a href="" class="navItemlink" showId="div-2">PRODUCTS</a></li>
+          <li class="navitem"><a href="" class="navItemlink" showId="div-3">PRODUCTION</a></li>          
+          <li class="navitem"><a href="" class="navItemlink" showId="div-5">ABOUT US</a></li>
+          <li class="navitem"><a href="" class="navItemlink" showId="div-6">CONTACT US</a></li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+    </div>
     <div id="homeWrapper" class="masterContainer">
-      <div class="homeContentWrapper">
-        <div id="" class="headerPart">
-          <div class="logoContainer"><img src="freedom_images/logo89x80.jpg" alt="Freedom">
-            <div><label>BANGLA-GERMAN</label><br><label>LATEX CO. LTD.</label></div>
-          </div>
-          <div class="menuContainer">
-            <ul class="nav">
-              <li class="navitem"><a href="" class="navItemlink" showId="div-1">HOME</a></li>
-              <li class="navitem"><a href="" class="navItemlink" showId="div-2">PRODUCTS</a></li>
-              <li class="navitem"><a href="" class="navItemlink" showId="div-3">PRODUCTION</a></li>
-              <li class="navitem"><a href="" class="navItemlink" showId="div-4">CERTIFICATION</a></li>
-              <li class="navitem"><a href="" class="navItemlink" showId="div-5">ABOUT US</a></li>
-              <li class="navitem"><a href="" class="navItemlink" showId="div-6">CONTACT US</a></li>
-            </ul>
-          </div>
-          <div class="clear"></div>
-        </div>
+      <div class="homeContentWrapper">        
         <div id="homeContent" class="hideShowContent showDiv-1">
           <div class="bannerPart">
             <div class="bannerSlideShow">
               <div id="bannerSlideShow" class="rangsBannerContentPart">
                 <div class="mainContents">
-                  <div id="bannerContent-1" class="slideImageHolder"><a href="#"><img width="420px" height="230px" src="freedom_images/s-1.jpg" alt="" /></a>
-                    <div class="captions"><p>Take your game to the next level with LifeStyles Condoms premium condom collection.</p></div>
+                  <div id="bannerContent-1" class="slideImageHolder"><a href="#"><img width="705px" height="350px" src="freedom_images/IMG_6374_slide_1.JPG" alt="" /></a>
+                    <div class="captions"><p>Take your game to the next level with freedom Condoms premium condom collection.</p></div>
                   </div>
-                  <div id="bannerContent-2" class="slideImageHolder"><a href="#"><img width="420px" height="230px" src="freedom_images/s-2.jpg" alt="" /></a>
-                    <div class="captions"><p>Take your game to the next level with LifeStyles Condoms premium condom collection.</p></div>
+                  <div id="bannerContent-2" class="slideImageHolder"><a href="#"><img width="705px" height="350px" src="freedom_images/IMG_6349_slide_2.JPG" alt="" /></a>
+                    <div class="captions"><p>Take your game to the next level with freedom Condoms premium condom collection.</p></div>
                   </div>
-                  <div id="bannerContent-3" class="slideImageHolder"><a href="#"><img width="420px" height="230px" src="freedom_images/s-3.jpg" alt="" /></a>
-                    <div class="captions"><p>Take your game to the next level with LifeStyles Condoms premium condom collection.</p></div>
+                  <div id="bannerContent-3" class="slideImageHolder"><a href="#"><img width="705px" height="350px" src="freedom_images/IMG_6374_slide_1.JPG" alt="" /></a>
+                    <div class="captions"><p>Take your game to the next level with freedom Condoms premium condom collection.</p></div>
                   </div>
-                  <div id="bannerContent-4" class="slideImageHolder"><a href="#"><img width="420px" height="230px" src="freedom_images/s-4.jpg" alt="" /></a>
-                    <div class="captions"><p>Take your game to the next level with LifeStyles Condoms premium condom collection.</p></div>
+                  <div id="bannerContent-4" class="slideImageHolder"><a href="#"><img width="705px" height="350px" src="freedom_images/IMG_6349_slide_2.JPG" alt="" /></a>
+                    <div class="captions"><p>Take your game to the next level with freedom Condoms premium condom collection.</p></div>
                   </div>
-                  <div id="bannerContent-5" class="slideImageHolder"><a href="#"><img width="420px" height="230px" src="freedom_images/s-5.jpg" alt="" /></a>
-                    <div class="captions"><p>Take your game to the next level with LifeStyles Condoms premium condom collection.</p></div>
+                  <div id="bannerContent-5" class="slideImageHolder"><a href="#"><img width="705px" height="350px" src="freedom_images/IMG_6374_slide_1.JPG" alt="" /></a>
+                    <div class="captions"><p>Take your game to the next level with freedom Condoms premium condom collection.</p></div>
                   </div>
-                  <div id="bannerContent-6" class="slideImageHolder"><a href="#"><img width="420px" height="230px" src="freedom_images/s-6.jpg" alt="" /></a>
-                    <div class="captions"><p>Take your game to the next level with LifeStyles Condoms premium condom collection.</p></div>
+                  <div id="bannerContent-6" class="slideImageHolder"><a href="#"><img width="705px" height="350px" src="freedom_images/IMG_6349_slide_2.JPG" alt="" /></a>
+                    <div class="captions"><p>Take your game to the next level with freedom Condoms premium condom collection.</p></div>
                   </div>
-                  <div id="bannerContent-7" class="slideImageHolder"><a href="#"><img width="420px" height="230px" src="freedom_images/s-7.jpg" alt="" /></a>
-                    <div class="captions"><p>Take your game to the next level with LifeStyles Condoms premium condom collection.</p></div>
+                  <div id="bannerContent-7" class="slideImageHolder"><a href="#"><img width="705px" height="350px" src="freedom_images/IMG_6374_slide_1.JPG" alt="" /></a>
+                    <div class="captions"><p>Take your game to the next level with freedom Condoms premium condom collection.</p></div>
                   </div>
-                  <div id="bannerContent-8" class="slideImageHolder"><a href="#"><img width="420px" height="230px" src="freedom_images/s-8.jpg" alt="" /></a>
-                    <div class="captions"><p>Take your game to the next level with LifeStyles Condoms premium condom collection.</p></div>
+                  <div id="bannerContent-8" class="slideImageHolder"><a href="#"><img width="705px" height="350px" src="freedom_images/IMG_6349_slide_2.JPG" alt="" /></a>
+                    <div class="captions"><p>Take your game to the next level with freedom Condoms premium condom collection.</p></div>
                   </div>
                 </div>
                 <div class="thumbnails">
@@ -127,18 +126,6 @@
               </div>
               <div class="clear"></div>
             </div>
-            <div class="bannerRightpart">
-              <p>
-                "I was most impressed with their facilities, which were amongst the best that I have seen."
-              </p>
-              <label>David Smith</label><br>
-              <div>
-                <label class="a1">Chief</label><br>
-                <label class="a1">Procurement Services Section</label><br>
-                <label class="a1"><strong>UNFPA</strong>, Head Quarter, Denmark</label>
-              </div>
-            </div>
-            <div class="clear"></div>
           </div>
           <div class="variableContentPart">
             <div class="contentLeft">
@@ -150,8 +137,14 @@
               </p>
             </div>
             <div class="contentRight">
-              <div class="contentRightImageContainer">
-                <img src="freedom_images/orginpac-1 (copy).jpg" alt="">
+              <p>
+                "I was most impressed with their facilities, which were amongst the best that I have seen."
+              </p>
+              <label>David Smith</label><br>
+              <div>
+                <label class="a1">Chief</label><br>
+                <label class="a1">Procurement Services Section</label><br>
+                <label class="a1"><strong>UNFPA</strong>, Head Quarter, Denmark</label>
               </div>
             </div>
             <div class="clear"></div>
@@ -351,35 +344,7 @@
             </div>
             <div class="clear"></div>
           </div>
-        </div>
-
-        <div id="certificationContainer" class="hideShowContent defaultHide showDiv-4">
-          <div class="certificateContent">
-            <div class="certificateImageHolder">
-              <div class="certificatesImage">
-                <img src="freedom_images/cert-1.jpg" alt="">
-              </div>
-              <div class="certificatesImage">
-                <img src="freedom_images/cert-2.jpg" alt="">
-              </div>
-              <div class="clear"></div>
-              <div class="certificatesImage">
-                <img src="freedom_images/cert-3.jpg" alt="">
-              </div>
-              <div class="certificatesImage">
-                <img src="freedom_images/cert-4.jpg" alt="">
-              </div>
-              <div class="clear"></div>
-            </div>
-            <div class="certificateTextHolder">
-              <h3>CERTIFICATION</h3>
-              <p>
-                We are routinely audited by <strong>TUV, Rheinland, Germany</strong> and awarded <strong>CE 0197</strong> mark and also certified with <strong>ISO 9001:2000 & EN ISO 13485:2003.</strong>
-              </p>
-            </div>
-            <div class="clear"></div>
-          </div>
-        </div>
+        </div>        
 
         <div id="aboutUsContainer" class="hideShowContent defaultHide showDiv-5">          
           <div class="textsAboutUsHolder">
@@ -429,7 +394,7 @@
 
         <div class="footerPart">
           <div class="copyrightDiv">
-            <label>Powered By Â© <a href="http://www.smartitengineering.com/">Smart IT Engineering Limited</a></label>
+            <label>Powered By © <a href="http://www.smartitengineering.com/">Smart IT Engineering Limited</a></label>
           </div>
         </div>
       </div>
