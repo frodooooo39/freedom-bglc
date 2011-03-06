@@ -29,7 +29,7 @@
   <body>
     <div id="" class="headerPart">
       <div class="logoContainer"><img src="freedom_images/logo89x80 .png" alt="Freedom">
-        <div><label>BANGLA-GERMAN</label><br><label>LATEX CO. LTD.</label></div>
+        <div><label>BANGLA-GERMAN</label><br><label>LATEX COMPANY LIMITED</label></div>
       </div>
       <div class="menuContainer">
         <ul class="nav">
@@ -49,79 +49,78 @@
             <div class="bannerSlideShow">
               <div id="bannerSlideShow" class="rangsBannerContentPart">
                 <div class="mainContents">
-                  <div id="bannerContent-1" class="slideImageHolder"><a href="#"><img width="705px" height="350px" src="freedom_images/IMG_6374_slide_1.JPG" alt="" /></a>
+                  <div id="bannerContent-1" class="slideImageHolder"><a href="#"><img width="960px" height="400px" src="freedom_images/IMG_6374_slide_1.JPG" alt="" /></a>
                     <div class="captions"><p>Take your game to the next level with freedom Condoms premium condom collection.</p></div>
                   </div>
-                  <div id="bannerContent-2" class="slideImageHolder"><a href="#"><img width="705px" height="350px" src="freedom_images/IMG_6349_slide_2.JPG" alt="" /></a>
+                  <div id="bannerContent-2" class="slideImageHolder"><a href="#"><img width="960px" height="400px" src="freedom_images/IMG_6349_slide_2.JPG" alt="" /></a>
                     <div class="captions"><p>Take your game to the next level with freedom Condoms premium condom collection.</p></div>
                   </div>
-                  <div id="bannerContent-3" class="slideImageHolder"><a href="#"><img width="705px" height="350px" src="freedom_images/IMG_6374_slide_1.JPG" alt="" /></a>
+                  <div id="bannerContent-3" class="slideImageHolder"><a href="#"><img width="960px" height="400px" src="freedom_images/IMG_6374_slide_1.JPG" alt="" /></a>
                     <div class="captions"><p>Take your game to the next level with freedom Condoms premium condom collection.</p></div>
                   </div>
-                  <div id="bannerContent-4" class="slideImageHolder"><a href="#"><img width="705px" height="350px" src="freedom_images/IMG_6349_slide_2.JPG" alt="" /></a>
+                  <div id="bannerContent-4" class="slideImageHolder"><a href="#"><img width="960px" height="400px" src="freedom_images/IMG_6349_slide_2.JPG" alt="" /></a>
                     <div class="captions"><p>Take your game to the next level with freedom Condoms premium condom collection.</p></div>
                   </div>
-                  <div id="bannerContent-5" class="slideImageHolder"><a href="#"><img width="705px" height="350px" src="freedom_images/IMG_6374_slide_1.JPG" alt="" /></a>
+                  <div id="bannerContent-5" class="slideImageHolder"><a href="#"><img width="960px" height="400px" src="freedom_images/IMG_6374_slide_1.JPG" alt="" /></a>
                     <div class="captions"><p>Take your game to the next level with freedom Condoms premium condom collection.</p></div>
                   </div>
-                  <div id="bannerContent-6" class="slideImageHolder"><a href="#"><img width="705px" height="350px" src="freedom_images/IMG_6349_slide_2.JPG" alt="" /></a>
+                  <div id="bannerContent-6" class="slideImageHolder"><a href="#"><img width="960px" height="400px" src="freedom_images/IMG_6349_slide_2.JPG" alt="" /></a>
                     <div class="captions"><p>Take your game to the next level with freedom Condoms premium condom collection.</p></div>
                   </div>
-                  <div id="bannerContent-7" class="slideImageHolder"><a href="#"><img width="705px" height="350px" src="freedom_images/IMG_6374_slide_1.JPG" alt="" /></a>
+                  <div id="bannerContent-7" class="slideImageHolder"><a href="#"><img width="960px" height="400px" src="freedom_images/IMG_6374_slide_1.JPG" alt="" /></a>
                     <div class="captions"><p>Take your game to the next level with freedom Condoms premium condom collection.</p></div>
                   </div>
-                  <div id="bannerContent-8" class="slideImageHolder"><a href="#"><img width="705px" height="350px" src="freedom_images/IMG_6349_slide_2.JPG" alt="" /></a>
+                  <div id="bannerContent-8" class="slideImageHolder"><a href="#"><img width="960px" height="400px" src="freedom_images/IMG_6349_slide_2.JPG" alt="" /></a>
                     <div class="captions"><p>Take your game to the next level with freedom Condoms premium condom collection.</p></div>
                   </div>
                 </div>
                 <div class="thumbnails">
-                  <ul>
-                    <li>
-                      <div class="thumbnail thumbnail_1">
-                        <a href="#bannerContent-1" class="contentHref"></a>
-                        <div class="coverDiv"></div>
-                        <div class="thumbnailContent"><img src="freedom_images/t1.jpg" alt="" height="30px" width="35px"></div>
-                      </div>
-                      <div class="thumbnail thumbnail_1">
-                        <a href="#bannerContent-2" class="contentHref"></a>
-                        <div class="coverDiv"></div>
-                        <div class="thumbnailContent"><img src="freedom_images/t2.jpg" alt="" height="30px" width="35px"></div>
-                      </div>
-                      <div class="thumbnail thumbnail_1">
-                        <a href="#bannerContent-3" class="contentHref"></a>
-                        <div class="coverDiv"></div>
-                        <div class="thumbnailContent"><img src="freedom_images/t3.jpg" alt="" height="30px" width="35px"></div>
-                      </div>
-                      <div class="thumbnail thumbnail_1">
-                        <a href="#bannerContent-4" class="contentHref"></a>
-                        <div class="coverDiv"></div>
-                        <div class="thumbnailContent"><img src="freedom_images/t4.jpg" alt="" height="30px" width="35px"></div>
-                      </div>
-                    </li>
-                    <br>
-                    <li>
-                      <div class="thumbnail thumbnail_2">
-                        <a href="#bannerContent-5" class="contentHref"></a>
-                        <div class="coverDiv"></div>
-                        <div class="thumbnailContent"><img src="freedom_images/t5.jpg" alt="" height="30px" width="35px"></div>
-                      </div>
-                      <div class="thumbnail thumbnail_2">
-                        <a href="#bannerContent-6" class="contentHref"></a>
-                        <div class="coverDiv"></div>
-                        <div class="thumbnailContent"><img src="freedom_images/t6.jpg" alt="" height="30px" width="35px"></div>
-                      </div>
-                      <div class="thumbnail thumbnail_2">
-                        <a href="#bannerContent-7" class="contentHref"></a>
-                        <div class="coverDiv"></div>
-                        <div class="thumbnailContent"><img src="freedom_images/t7.jpg" alt="" height="30px" width="35px"></div>
-                      </div>
-                      <div class="thumbnail thumbnail_2">
-                        <a href="#bannerContent-8" class="contentHref"></a>
-                        <div class="coverDiv"></div>
-                        <div class="thumbnailContent"><img src="freedom_images/t8.jpg" alt="" height="30px" width="35px"></div>
-                      </div>
-                    </li>
-                  </ul>
+                  <div class="thumbnailsInside">
+                    <ul>
+                      <li>
+                        <div class="thumbnail">
+                          <a href="#bannerContent-1" class="contentHref"></a>
+                          <div class="coverDiv"></div>
+                          <div class="thumbnailContent"><img src="freedom_images/IMG_6374_tmb_1.JPG" alt="" height="35px" width="45px"></div>
+                        </div>
+                        <div class="thumbnail">
+                          <a href="#bannerContent-2" class="contentHref"></a>
+                          <div class="coverDiv"></div>
+                          <div class="thumbnailContent"><img src="freedom_images/IMG_6349_tmb_2.JPG" alt="" height="35px" width="45px"></div>
+                        </div>
+                        <div class="thumbnail">
+                          <a href="#bannerContent-3" class="contentHref"></a>
+                          <div class="coverDiv"></div>
+                          <div class="thumbnailContent"><img src="freedom_images/IMG_6374_tmb_1.JPG" alt="" height="35px" width="45px"></div>
+                        </div>
+                        <div class="thumbnail">
+                          <a href="#bannerContent-4" class="contentHref"></a>
+                          <div class="coverDiv"></div>
+                          <div class="thumbnailContent"><img src="freedom_images/IMG_6349_tmb_2.JPG" alt="" height="35px" width="45px"></div>
+                        </div>
+                        <div class="thumbnail">
+                          <a href="#bannerContent-5" class="contentHref"></a>
+                          <div class="coverDiv"></div>
+                          <div class="thumbnailContent"><img src="freedom_images/IMG_6374_tmb_1.JPG" alt="" height="35px" width="45px"></div>
+                        </div>
+                        <div class="thumbnail">
+                          <a href="#bannerContent-6" class="contentHref"></a>
+                          <div class="coverDiv"></div>
+                          <div class="thumbnailContent"><img src="freedom_images/IMG_6349_tmb_2.JPG" alt="" height="35px" width="45px"></div>
+                        </div>
+                        <div class="thumbnail">
+                          <a href="#bannerContent-7" class="contentHref"></a>
+                          <div class="coverDiv"></div>
+                          <div class="thumbnailContent"><img src="freedom_images/IMG_6374_tmb_1.JPG" alt="" height="35px" width="45px"></div>
+                        </div>
+                        <div class="thumbnail">
+                          <a href="#bannerContent-8" class="contentHref"></a>
+                          <div class="coverDiv"></div>
+                          <div class="thumbnailContent"><img src="freedom_images/IMG_6349_tmb_2.JPG" alt="" height="35px" width="45px"></div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
               <div class="clear"></div>

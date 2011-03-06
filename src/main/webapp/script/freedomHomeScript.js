@@ -15,7 +15,7 @@ $(document).ready(function(){
     $("#bannerSlideShow").smartContentSlider('autoSlide', 0);
     return true;
   }, function(){
-    $("#bannerSlideShow").smartContentSlider('autoSlide', 4000);
+//    $("#bannerSlideShow").smartContentSlider('autoSlide', 4000);
     return true;
   });
   $("#bannerSlideShow").smartContentSlider({
@@ -23,7 +23,7 @@ $(document).ready(function(){
       $(content).fadeIn(2000);
     }
   });
-  $("#bannerSlideShow").smartContentSlider('autoSlide', 4000);
+//  $("#bannerSlideShow").smartContentSlider('autoSlide', 4000);
 
   $('.navItemlink').each(function(){
     $(this).click(
