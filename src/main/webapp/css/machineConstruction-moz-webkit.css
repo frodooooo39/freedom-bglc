@@ -1,0 +1,65 @@
+/* 
+    Document   : machineConstruction-moz-webkit
+    Created on : Mar 7, 2011, 12:20:24 PM
+    Author     : uzzal
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+  display: block;
+}
+
+.machineConstructionContainer{
+}
+.machineDescriptionMasterContainer{
+  font-family:Arial,Trebuchet-MS,Helvetica,sans-serif;
+  padding:30px 0px 30px 0px;
+  height:1912px;
+}
+
+.individualMachineContainer{
+  position:relative;
+  width:960px;    
+/*  border-bottom:1px solid #190710;*/
+/*  border-top:1px solid #190710;*/
+}
+
+.machineDescriptionContainer{
+  position:relative;
+  background-color:#CC9C38;
+  padding:5px 10px 10px 20px;
+  width:460px;
+  float:left;  
+  height:auto;
+}
+
+.machineDescriptionContainer h4{
+  font-size:17px;
+  color:#FFFFFF;
+}
+
+.machineDescriptionContainer p{
+  font-size:13px;
+  color:#190707;
+  line-height:20px;
+}
+
+.machineDescriptionContainer ul{
+  list-style:circle;
+  margin-left:-25px;
+}
+
+.machineDescriptionContainer ul li{
+font-size:13px;
+line-height:20px;
+}
+.machineImgContainer{
+  width:450px;
+  float:right;    
+}
