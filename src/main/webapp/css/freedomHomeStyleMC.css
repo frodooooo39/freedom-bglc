@@ -77,8 +77,9 @@ body{
 
 .menuContainer{
   background:url(../images/topblue.jpg) repeat-x scroll top left #08088A;
-  /*background:url(../images/) repeat-x scroll top left #000;*/
-  width:593px;
+  /*  background:url(../images/bluebg.png) repeat scroll top left transparent;*/
+  position:relative;
+  width:600px;
   height:50px;
   float:right;
   margin-top: 26px;
@@ -86,7 +87,7 @@ body{
 
 .menuContainer ul{
   list-style:none;
-  margin-left:55px;
+  margin-left:-25px;
   margin-top:14px;
 }
 
@@ -215,8 +216,8 @@ img{
 }
 
 .contentLeft{
-  /*  background:url(../images/golden_glossy_1.jpg) repeat scroll top left transparent;*/
-  background-color:#CC9C38;
+  background:url(../images/left_1.png) repeat scroll top left transparent;
+  /*  background-color:#CC9C38;*/
   /*  background-color:#fbad3e;*/
   height:290px;
   width:580px;
@@ -256,12 +257,12 @@ img{
   text-align: justify;
 }
 
-.contentRight{  
+.contentRight{
+  background:url(../images/right_1.png)repeat scroll top left transparent;
   width:350px;
   float:right;
   height:290px;
-  margin:0px 10px 0px 0px;
-  background-color:#B40404;
+  margin:0px 10px 0px 0px;  
 
   -moz-border-radius:0.7em 0.7em 0.7em 0.7em;
   -webkit-border-radius:0.7em 0.7em 0.7em 0.7em;
