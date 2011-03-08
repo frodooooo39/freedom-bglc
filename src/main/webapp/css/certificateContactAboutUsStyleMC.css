@@ -148,11 +148,11 @@ root {
 }
 .textsAboutUsHolder h3{  
   font-size:16px;
-  color:#DF0174;
+  color:#FF0000;
 }
 
 .textsAboutUsHolder p{
-  font-size:12px;
+  font-size:13px;
   text-align:justify;
   line-height:20px;
   color:#000;
@@ -161,8 +161,8 @@ root {
 .backgroundImageHolder{
  position:absolute;
  background:url(../freedom_images/factory_1.jpg) no-repeat scroll top right transparent;
- height:520px;
- width:930px;
+ height:550px;
+ width:960px;
  opacity:0.3;
  margin:-4px 0 0 -60px;
 }
