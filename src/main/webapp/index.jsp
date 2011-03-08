@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/condomProductStyleMC.css">
     <link rel="stylesheet" type="text/css" href="css/productionStyleMC.css">
     <link rel="stylesheet" type="text/css" href="css/certificateContactAboutUsStyleMC.css">
+    <link rel="stylesheet" type="text/css" href="css/machineConstruction-moz-webkit.css">
     <!--<![endif]-->
 
     <!--[if IE]>
@@ -35,7 +36,8 @@
         <ul class="nav">
           <li class="navitem"><a href="" class="navItemlink" showId="div-1">HOME</a></li>
           <li class="navitem"><a href="" class="navItemlink" showId="div-2">PRODUCTS</a></li>
-          <li class="navitem"><a href="" class="navItemlink" showId="div-3">PRODUCTION</a></li>          
+          <li class="navitem"><a href="" class="navItemlink" showId="div-3">PRODUCTION</a></li>
+          <li class="navitem"><a href="" class="navItemlink" showId="div-4">MACHINE CONSTRUCTION</a></li>
           <li class="navitem"><a href="" class="navItemlink" showId="div-5">ABOUT US</a></li>
           <li class="navitem"><a href="" class="navItemlink" showId="div-6">CONTACT US</a></li>
         </ul>
@@ -44,7 +46,7 @@
     </div>
     <div id="homeWrapper" class="masterContainer">
       <div class="homeContentWrapper">        
-        <div id="homeContent" class="hideShowContent showDiv-1">
+        <div id="homeContent" class="hideShowContent showDiv-1 defaultHide">
           <div class="bannerPart">
             <div class="bannerSlideShow">
               <div id="bannerSlideShow" class="rangsBannerContentPart">
@@ -131,8 +133,8 @@
               <h3>OUR MISSION</h3>
               <h4>Better Condom,&nbsp;&nbsp;&nbsp;Safer Sex</h4>              
               <p>
-                Our mission is simple : to ensure quality condom production to contribute to the success of <strong>Family Planning Program</strong> (Bangladesh) and to provide active support in the field of <strong>STI/HIV/AIDS</strong>
-                prevention program, to change safe sex as you know it. It started with our closest-to-wearing-nothing <strong>FREEDOM</strong> condoms. It continues today. Enjoy the ride.
+                Our mission is simple: to make quality condom production so as to contribute to the success of <strong>Family Planning Program</strong> and to provide active support in the field of <strong>STI/HIV/AIDS</strong>
+                prevention program, to ensure safe sex as you know it. It started with our closest-to-wearing-nothing <strong>FREEDOM</strong> condoms. It continues today. Enjoy the ride.
               </p>
             </div>
             <div class="contentRight">
@@ -345,32 +347,37 @@
           </div>
         </div>        
 
+        <div id="machineConstructionContainer" class="hideShowContent showDiv-4">
+          <jsp:include page="pages/machineConstruction.jsp"/>
+        </div>
+
         <div id="aboutUsContainer" class="hideShowContent defaultHide showDiv-5">          
           <div class="textsAboutUsHolder">
             <div class="backgroundImageHolder"></div>
             <h3>THE COMPANY</h3>
             <p>
-              <strong>Bangla-German Latex Company Ltd.</strong> a joint venture with <strong>CPR Production-und Vertriebs GmbH, Germany</strong> is registered under Joint Stock Company Act of Bangladesh as a pulic limited company.
-              The aim of the company is to bring together the expertise of one of the world's leading condoms manufacturers and produce quality latex condoms locally. This is the only quality condom plant in the SAARC region other than India.
+              <strong>Bangla-German Latex Company Limited, Bangladesh</strong> a joint venture with <strong>CPR Production-und Vertriebs GmbH, Germany.</strong>This was registered under the Companies Act, 1994 of Bangladesh as a public limited company on 25 April 1999. This is the only quality condom plant in the South Asian region other than India. 
             </p>
             <h3>OBJECTIVE</h3>
             <p>
-              Our objective is simple to ensure quality condom production to contribute to the success of <strong>Family Planning Program</strong> (Bangladesh) and to provide active support in the field of <strong>STI/HIV/AIDS</strong>
-              prevention program, to change safe sex as you know it. It started with our closest-to-wearing-nothing <strong>FREEDOM</strong> condoms.
+              The aim of the company is to bring together the expertise of one of the world's leading condoms manufacturers and produce quality latex condoms in Bangladesh. Our objective is to produce quality condom so as to contribute to the success of
+              <strong>Family Planning Program</strong> and to provide active support in the field of <strong>STI/HIV/AIDS
+                prevention program</strong>, to ensure safe sex as you know it. It started with our closest-to-wearing-nothing <strong>FREEDOM</strong> condoms.
             </p>
             <h3>SHARE HOLDERS</h3>
             <p>
-              Our Shareholders are from Germany, UK, UAE and Bangladesh.
-            </p>
-            <h3>VALUED BUYER</h3>
-            <p>
-              Our prominent clients include <strong>IPPF</strong> (International Planned Parenthood Fund)-UK, <strong>UDL-Pakistan</strong> (promoted by <i>Key Social Marketing, Pakistan</i>) and other clients in Myanmar, Bahrain, Honduras, and USA.
-              We manufacture customized brand for different buyers & brands as desired by our valued customers.
+              Our Shareholders were from Germany, UK and Bangladesh. 
             </p>
             <h3>MANAGEMENT</h3>
             <p>
-              Our management team is consisting of local and international specialists having long experience in this industry.
+              Our management team consists of local and international specialists having long experience in this industry.
             </p>
+            <h3>BUYERS</h3>
+            <p>
+              Our prominent buyers included <strong>IPPF (International Planned Parenthood Fund)-UK, CPR-Germany, UDL-Pakistan, ICDDR,B-Bangladesh and Save The Children-USA </strong>
+              and other clients in Myanmar, Bahrain, Honduras, and USA. We manufacture customized brand for different buyers & brands as desired by our valued customers. 
+
+            </p>            
           </div>
         </div>
 
