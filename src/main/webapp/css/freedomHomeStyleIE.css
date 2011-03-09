@@ -1,0 +1,337 @@
+/*
+    Document   : freedomHomeStyle
+    Created on : Feb 14, 2011, 4:45:12 PM
+    Author     : uzzal
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root {
+  display: block;
+}
+
+body{
+  background:url(../images/background-body.png) repeat-x scroll top left #F2F2F2;
+  position:relative;
+}
+
+.masterContainer{
+  margin:0 auto;
+  width:960px;
+  background-color:#FFFFFF;
+}
+
+.homeContentWrapper{
+  margin:0px 0px 0px 0px;
+
+  -moz-box-shadow:1px 5px 25px 5px #000000;
+  -webkit-box-shadow:1px 5px 25px 5px #000000;
+  box-shadow: 1px 5px 25px 5px #000000
+}
+
+.defaultHide{
+  display:none;
+}
+
+/********************************* HEADER ********************************/
+.headerPart {
+  margin:0 auto;
+  height: 80px;
+  padding-bottom: 30px;
+  width: 960px;
+}
+
+.logoContainer {
+  float: left;
+  margin-left: 2px;
+  position: relative;
+  width: 335px;
+}
+
+.logoContainer img{
+  padding-top: 19px;
+}
+
+.logoContainer label {
+  color: #fbad3e;
+  font-family: serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: -0.8px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.logoContainer div {
+  left: 100px;
+  position: absolute;
+  text-align: center;
+  top: 35px;
+}
+
+.menuContainer{
+  background:url(../images/topblue.jpg) repeat-x scroll top left #08088A;
+  /*  background:url(../images/bluebg.png) repeat scroll top left transparent;*/
+  position:relative;
+  width:600px;
+  height:50px;
+  float:right;
+  margin-top: 26px;
+}
+
+.menuContainer ul{
+  list-style:none;
+  margin-left:15px;
+  margin-top:16px;
+}
+
+.menuContainer ul li{
+  display:inline;
+  margin:0px 7px 0px 0px;
+}
+
+.menuContainer ul li a{
+  font-family:Arail,Trebuchet-MS,Helvetica,Tahoma,sans-serif;
+  font-size:13px;
+  font-weight:bold;
+  letter-spacing:-0.5px;
+  color:#fbad3e;
+  text-decoration:none;
+}
+
+.menuContainer ul li a:hover{
+  text-decoration:underline;
+  color:#FF0000;
+}
+
+.menuContainer ul li a.activeTab{
+  color:#FE2E9A;
+}
+/********************************* HEADER ********************************/
+
+/********************************** BANNER *********************************/
+.bannerPart{
+  width:100%;
+  height:400px;
+}
+
+.bannerSlideShow{
+  /*  background:url(../images/main_callout_bg.png) no-repeat scroll top left transparent;*/
+  width:960px;
+  height:400px;
+}
+
+/*************************** IMAGE SLIDER *******************************/
+img{
+  border:medium none;
+}
+
+#bannerSlideShow{
+  position:relative;
+}
+
+#bannerSlideShow .mainContents{
+  margin:0px 0px 0px 0px;
+}
+
+.slideImageHolder{
+  background-color:#FFFFFF;
+  width:960px;
+}
+
+.thumbnails {  
+  top: 330px;
+  left:40px;
+  position: absolute;
+  width: auto;
+  z-index:100;
+}
+
+.thumbnails ul{
+  margin-left:0px;
+  margin-top:15px;
+  margin-bottom:0px;
+  list-style:none;
+}
+.thumbnails ul li{
+  display: inline;
+}
+
+.thumbnail{
+  float:left;
+  margin-right:4px;
+  margin-bottom:18px;
+}
+
+.thumbnailContent{
+  border:1px solid #000;
+  background-color:#000;
+  padding:3px;
+  opacity:0.7;
+
+}
+
+
+.thumbnailContent:hover{
+  border:1px solid #FF0000;
+}
+
+.captions {
+  background-color: #000000;
+  color: #CC9C38;
+  font-family: cursive,sans-serif,Arial,Trebuchet-MS;
+  font-size: 11px;
+  font-weight: bold;
+  height: 60px;
+  letter-spacing: 0;  
+  top:324px;
+  left:564px;
+  opacity: 0.7;
+  filter:alpha(opacity:70);
+  padding: 7px;
+  position: absolute;
+  width: 380px;
+  z-index: 1000;
+  border:1px solid #000000;
+}
+
+.activeProDtTmb{
+  border:1px solid #FF0000;
+}
+/********************************** BANNER *********************************/
+
+/*################################## CONTENT PART ###########################*/
+.variableContentPart{
+  width:100%;
+  height:310px;
+  margin:20px 0px 0px 0px;
+  padding:20px 0px 20px 0px;
+}
+
+.contentLeft{
+  background:url(../images/left_1.png) repeat scroll top left transparent;
+  height:290px;
+  width:580px;  
+  margin-left:5px;
+  float:left;
+
+  -moz-border-radius:0.7em 0.7em 0.7em 0.7em;
+  -webkit-border-radius:0.7em 0.7em 0.7em 0.7em;
+  border-radius:0.7em 0.7em 0.7em 0.7em;
+
+  -moz-box-shadow:-5px 5px 10px 0px #888888;
+  -webkit-box-shadow:-5px 5px 10px 0px #888888;
+  box-shadow: -5px 5px 10px 0px #888888;
+}
+
+.contentLeft h3{
+  font-family:Arial,Trebuchet-MS,sans-serif,Helvetica;
+  font-size:16pt;
+  color:#FFFFFF;;
+  margin:20px 0px 10px 15px;
+}
+
+.contentLeft h4{
+  font-family:Arial,Trebuchet-MS,sans-serif,Helvetica;
+  font-size:12pt;
+  color:#151515;
+  margin:4px 0px 0px 15px;
+}
+
+.contentLeft p{
+  margin:15px 15px 0px 15px;
+  font-family:Arial,Trebuchet-MS,sans-serif,Helvetica;
+  font-size:13px;
+  line-height:25px;
+  text-indent:inherit;
+  color:#190710;
+  text-align: justify;
+}
+
+.contentRight{
+  background:url(../images/right_1.png) repeat scroll top left transparent;
+  width:350px;
+  float:right;
+  height:290px;
+  margin-right:5px;  
+}
+
+.contentRightImageContainer{
+  background-color:hotpink;
+  height:310px;
+  width:580px;
+  padding:5px;
+  /*  margin:40px 0px 0px 30px;*/
+  top:40px;
+  left:30px;
+}
+
+
+.contentRight p{
+  margin:35px 15px 5px 15px;
+  padding-bottom:10px;
+  font-family:Arial,Trebuchet-MS,sans-serif,Helvetica;
+  font-size:13px;
+  line-height:18px;
+  text-indent:inherit;
+  color:#190710;
+  border-bottom:1px solid #FFFFFF;
+}
+
+.contentRight label{
+  font-family:Arial,Trebuchet-MS,sans-serif,Helvetica;
+  font-weight:bold;
+  font-size:15px;
+  text-indent:inherit;
+  color:#000000;
+  margin-left:240px;
+}
+
+.contentRight div{
+  margin-top:110px;
+  margin-left:70px;
+  padding-right:15px;
+  text-align:right;
+}
+.contentRight label.a1{
+  font-family:Arial,Trebuchet-MS,sans-serif;
+  font-size:9px;
+  margin-left:20px;
+  text-align:left;
+}
+
+/*################################## CONTENT PART ###########################*/
+
+.footerPart{
+  background:url(../images/topblue_1.jpg) repeat-x scroll top left #FFFFFF;
+  width:100%;
+  height:70px;
+}
+
+.copyrightDiv{
+  margin:0 auto;
+  padding-top:25px;
+  text-align:center;
+  font-family:Arial,Trebuchet-MS,sans-serif;
+  font-size:12px;
+  font-weight:bold;
+  letter-spacing:1px;
+  color:#FBAD3E;
+}
+
+.copyrightDiv a{
+  font-family:Arial,Trebuchet-MS,sans-aserif;
+  font-size:12px;
+  text-decoration:none;
+  color:#15ADFF;
+}
+
+.clear{
+  clear:both;
+}

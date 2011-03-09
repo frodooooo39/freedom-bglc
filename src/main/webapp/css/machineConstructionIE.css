@@ -1,0 +1,63 @@
+/* 
+    Document   : machineConstructionIE
+    Created on : Mar 9, 2011, 12:19:25 PM
+    Author     : uzzal
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+  display: block;
+}
+
+.machineConstructionContainer{
+}
+.machineDescriptionMasterContainer{
+  font-family:Arial,Trebuchet-MS,Helvetica,sans-serif;
+  padding:30px 0px 30px 0px;
+  height:1912px;
+}
+
+.individualMachineContainer{
+  position:relative;
+  width:960px;  
+}
+
+.machineDescriptionContainer{
+  position:relative;
+  background-color:#CC9C38;
+  padding:20px 10px 10px 20px;
+  width:460px;
+  float:left;
+  height:auto;
+}
+
+.machineDescriptionContainer h4{
+  font-size:17px;
+  color:#FFFFFF;
+}
+
+.machineDescriptionContainer p{
+  font-size:13px;
+  color:#190707;
+  line-height:20px;
+}
+
+.machineDescriptionContainer ul{
+  list-style:circle;
+  margin-left:20px;
+}
+
+.machineDescriptionContainer ul li{
+  font-size:13px;
+  line-height:20px;
+}
+.machineImgContainer{
+  width:450px;
+  float:right;
+}
