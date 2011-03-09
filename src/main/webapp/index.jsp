@@ -31,7 +31,7 @@
   <body>
     <div id="" class="headerPart">
       <div class="logoContainer"><img src="freedom_images/logo-90x79.png" alt="Freedom">
-        <div><label>BANGLA-GERMAN</label><br><label>LATEX COMPANY LIMITED</label></div>
+        <div><label>BANGLA-GERMAN LATEX COMPANY LIMITED</label></div>
       </div>
       <div class="menuContainer">
         <ul class="nav">
@@ -52,9 +52,12 @@
             <div class="bannerSlideShow">
               <div id="bannerSlideShow" class="bannerContentPart">
                 <div class="mainContents">
-                  <div id="bannerContent-1" class="slideImageHolder"><a href="#"><img width="960px" height="400px" src="freedom_images/IMG_6374_slide_1.JPG" alt="" /></a>
+                  <div id="bannerContent-1" class="slideImageHolder"><a href="#"><img width="960px" height="400px" src="freedom_images/team.png" alt="" /></a>
                     <div class="captions"><p>Take your game to the next level with freedom Condoms premium condom collection.</p></div>
                   </div>
+<!--                  <div id="bannerContent-1" class="slideImageHolder"><a href="#"><img width="960px" height="400px" src="freedom_images/IMG_6374_slide_1.JPG" alt="" /></a>
+                    <div class="captions"><p>Take your game to the next level with freedom Condoms premium condom collection.</p></div>
+                  </div>-->
                   <div id="bannerContent-2" class="slideImageHolder"><a href="#"><img width="960px" height="400px" src="freedom_images/IMG_6349_slide_2.JPG" alt="" /></a>
                     <div class="captions"><p>Take your game to the next level with freedom Condoms premium condom collection.</p></div>
                   </div>
@@ -84,7 +87,7 @@
                         <div class="thumbnail">
                           <a href="#bannerContent-1" class="contentHref"></a>
                           <div class="coverDiv"></div>
-                          <div class="thumbnailContent"><img src="freedom_images/IMG_6374_tmb_1.JPG" alt="" height="35px" width="45px"></div>
+                          <div class="thumbnailContent"><img src="freedom_images/team.png" alt="" height="35px" width="45px"></div>
                         </div>
                         <div class="thumbnail">
                           <a href="#bannerContent-2" class="contentHref"></a>
