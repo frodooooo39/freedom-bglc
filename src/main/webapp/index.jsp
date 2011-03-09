@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="css/productionStyleMC.css">
     <link rel="stylesheet" type="text/css" href="css/certificateContactAboutUsStyleMC.css">
     <link rel="stylesheet" type="text/css" href="css/machineConstruction-moz-webkit.css">
+    <link rel="stylesheet" type="text/css" href="css/orderPage.css">
     <!--<![endif]-->
 
     <!--[if IE]>
@@ -26,6 +27,7 @@
     <script type="text/javascript" src="script/jquery-1.js"></script>
     <script type="text/javascript" src="script/plugin-smart-content-slider.js"></script>
     <script type="text/javascript" src="script/freedomHomeScript.js"></script>
+    <script type="text/javascript" src="script/productScript.js"></script>
   </head>
 
   <body>
@@ -47,7 +49,7 @@
     </div>
     <div id="homeWrapper" class="masterContainer">
       <div class="homeContentWrapper">        
-        <div id="homeContent" class="hideShowContent showDiv-1">
+        <div id="homeContent" class="hideShowContent showDiv-1 defaultHide">
           <div class="bannerPart">
             <div class="bannerSlideShow">
               <div id="bannerSlideShow" class="bannerContentPart">
@@ -205,6 +207,10 @@
               E-mail: bglc@rediffmail.com, www.freedombglc.com
             </p> 
           </div>
+        </div>
+
+        <div id="orderPageContainer" class="hideShowContent showDiv-3">
+          <jsp:include page="pages/order.jsp"/>
         </div>
 
         <div class="footerPart">

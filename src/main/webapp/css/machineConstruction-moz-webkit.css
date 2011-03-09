@@ -18,6 +18,7 @@ root {
 .machineConstructionContainer{
 }
 .machineDescriptionMasterContainer{
+  
   font-family:Arial,Trebuchet-MS,Helvetica,sans-serif;
   padding:30px 0px 30px 0px;
   height:1912px;
@@ -26,8 +27,8 @@ root {
 .individualMachineContainer{
   position:relative;
   width:960px;    
-/*  border-bottom:1px solid #190710;*/
-/*  border-top:1px solid #190710;*/
+  /*  border-bottom:1px solid #190710;*/
+  /*  border-top:1px solid #190710;*/
 }
 
 .machineDescriptionContainer{
@@ -56,8 +57,8 @@ root {
 }
 
 .machineDescriptionContainer ul li{
-font-size:13px;
-line-height:20px;
+  font-size:13px;
+  line-height:20px;
 }
 .machineImgContainer{
   width:450px;
