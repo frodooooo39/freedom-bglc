@@ -29,7 +29,7 @@
 
   <body>
     <div id="" class="headerPart">
-      <div class="logoContainer"><img src="freedom_images/logo89x80 .png" alt="Freedom">
+      <div class="logoContainer"><img src="freedom_images/logo-90x79.png" alt="Freedom">
         <div><label>BANGLA-GERMAN</label><br><label>LATEX COMPANY LIMITED</label></div>
       </div>
       <div class="menuContainer">
