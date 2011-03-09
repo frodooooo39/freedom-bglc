@@ -16,10 +16,11 @@
     <!--<![endif]-->
 
     <!--[if IE]>
-       <link rel="stylesheet" type="text/css" href="css/freedomHomeStyle.css">
+       <link rel="stylesheet" type="text/css" href="css/freedomHomeStyleIE.css">
        <link rel="stylesheet" type="text/css" href="css/condomProductStyle.css">
        <link rel="stylesheet" type="text/css" href="css/productionStyle.css">
        <link rel="stylesheet" type="text/css" href="css/certificateContactAboutUsStyle.css">
+       <link rel="stylesheet" type="text/css" href="css/machineConstructionIE.css">
    <![endif]-->
 
     <script type="text/javascript" src="script/jquery-1.js"></script>
@@ -46,10 +47,10 @@
     </div>
     <div id="homeWrapper" class="masterContainer">
       <div class="homeContentWrapper">        
-        <div id="homeContent" class="hideShowContent showDiv-1 defaultHide">
+        <div id="homeContent" class="hideShowContent showDiv-1">
           <div class="bannerPart">
             <div class="bannerSlideShow">
-              <div id="bannerSlideShow" class="rangsBannerContentPart">
+              <div id="bannerSlideShow" class="bannerContentPart">
                 <div class="mainContents">
                   <div id="bannerContent-1" class="slideImageHolder"><a href="#"><img width="960px" height="400px" src="freedom_images/IMG_6374_slide_1.JPG" alt="" /></a>
                     <div class="captions"><p>Take your game to the next level with freedom Condoms premium condom collection.</p></div>
@@ -347,14 +348,14 @@
           </div>
         </div>        
 
-        <div id="machineConstructionContainer" class="hideShowContent showDiv-4">
+        <div id="machineConstructionContainer" class="hideShowContent defaultHide showDiv-4">
           <jsp:include page="pages/machineConstruction.jsp"/>
         </div>
 
-        <div id="aboutUsContainer" class="hideShowContent defaultHide showDiv-5">          
+        <div id="aboutUsContainer" class="hideShowContent defaultHide showDiv-5">
           <div class="textsAboutUsHolder">
             <div class="backgroundImageHolder"></div>
-            <h3>THE COMPANY</h3>
+            <h3 id="topHeaderAboutUs">THE COMPANY</h3>
             <p>
               <strong>Bangla-German Latex Company Limited, Bangladesh</strong> a joint venture with <strong>CPR Production-und Vertriebs GmbH, Germany.</strong>This was registered under the Companies Act, 1994 of Bangladesh as a public limited company on 25 April 1999. This is the only quality condom plant in the South Asian region other than India. 
             </p>
@@ -373,10 +374,9 @@
               Our management team consists of local and international specialists having long experience in this industry.
             </p>
             <h3>BUYERS</h3>
-            <p>
+            <p id="bottomAboutUs">
               Our prominent buyers included <strong>IPPF (International Planned Parenthood Fund)-UK, CPR-Germany, UDL-Pakistan, ICDDR,B-Bangladesh and Save The Children-USA </strong>
               and other clients in Myanmar, Bahrain, Honduras, and USA. We manufacture customized brand for different buyers & brands as desired by our valued customers. 
-
             </p>            
           </div>
         </div>

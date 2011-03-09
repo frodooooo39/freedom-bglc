@@ -144,26 +144,33 @@ root {
 
 .textsAboutUsHolder{
   font-family:Arial,Trebuchet-MS,Helvetica,sans-serif;
-  padding:10px 50px 50px 60px;
+  padding:40px 50px 30px 60px;
 }
-.textsAboutUsHolder h3{  
-  font-size:16px;
-  color:#FF0000;
+
+.textsAboutUsHolder h3 {
+  background-color: Lavender;
+  color: #FF0000;
+  font-size: 16px;
+  padding: 8px 0;
 }
 
 .textsAboutUsHolder p{
   font-size:13px;
   text-align:justify;
-  line-height:20px;
+  line-height:25px;
   color:#000;
+  letter-spacing:0.6px;
+}
+
+#topHeaderAboutUs{
 }
 
 .backgroundImageHolder{
- position:absolute;
- background:url(../freedom_images/factory_1.jpg) no-repeat scroll top right transparent;
- height:550px;
- width:960px;
- opacity:0.3;
- margin:-4px 0 0 -60px;
+  position:absolute;
+  background:url(../freedom_images/IMG_6485.JPG) no-repeat scroll top right transparent;
+  height:725px;
+  width:960px;
+  opacity:0.3;
+  margin:-40px 0 0 -60px;
 }
 /*********************************** ABOUT US ************************************/

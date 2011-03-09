@@ -149,30 +149,40 @@ root {
 /*################################# CONTACT US ################################*/
 
 /*********************************** ABOUT US ************************************/
-
 .textsAboutUsHolder{
   font-family:Arial,Trebuchet-MS,Helvetica,sans-serif;
-  padding:10px 50px 0px 60px;
+  padding:40px 50px 0px 60px;
+  position:relative;
 }
-.textsAboutUsHolder h3{  
-  font-size:16px;
-  color:#DF0174;
+
+.textsAboutUsHolder h3 {
+  background-color: Lavender;
+  color: #FF0000;
+  font-size: 16px;
+  padding: 8px 0;
 }
 
 .textsAboutUsHolder p{
-  font-size:12px;
+  font-size:13px;
   text-align:justify;
-  line-height:20px;
+  line-height:25px;
   color:#000;
+  letter-spacing:0.6px;
+}
+
+#topHeaderAboutUs{
 }
 
 .backgroundImageHolder{
   position:absolute;
-  background:url(../freedom_images/factory_1.jpg) no-repeat scroll top right transparent;
-  height:520px;
+  background:url(../freedom_images/IMG_6485.JPG) no-repeat scroll top right transparent;
+  height:725px;
   width:960px;
   opacity:0.3;
   filter:alpha(opacity=30);
-  margin:-4px 0 0 -60px;
+  /*  margin:-4px 0 0 -60px;*/
+  top:0px;
+  left:-60px;
 }
+
 /*********************************** ABOUT US ************************************/
