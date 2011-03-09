@@ -49,7 +49,7 @@
     </div>
     <div id="homeWrapper" class="masterContainer">
       <div class="homeContentWrapper">        
-        <div id="homeContent" class="hideShowContent showDiv-1 defaultHide">
+        <div id="homeContent" class="hideShowContent showDiv-1 ">
           <div class="bannerPart">
             <div class="bannerSlideShow">
               <div id="bannerSlideShow" class="bannerContentPart">
@@ -212,7 +212,7 @@
           </div>
         </div>
 
-        <div id="orderPageContainer" class="hideShowContent showDiv-3">
+        <div id="orderPageContainer" class="hideShowContent showDiv-3 defaultHide">
           <jsp:include page="pages/order.jsp"/>
         </div>
 
