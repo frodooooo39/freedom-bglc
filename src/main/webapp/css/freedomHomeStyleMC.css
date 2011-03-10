@@ -16,7 +16,8 @@ root {
 }
 
 body{
-  background:url(../images/background-body-new.png) repeat-x scroll top left transparent;
+/*  background:url(../images/background-body-new.png) repeat-x scroll top left transparent;*/
+  background-color: black;
   position:relative;  
 }
 
