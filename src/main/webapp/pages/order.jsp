@@ -8,18 +8,31 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
   "http://www.w3.org/TR/html4/loose.dtd">
 
-<div class="orderInsideContainer">
-  <div class="formLabelContainer">
-    <div class="labelColumnContainer"><label>Standard</label></div>
-    <div class="labelColumnContainer"><label>Type</label></div>
-    <div class="labelColumnContainer labelColumnContainerCat3"><label>Color</label></div>
-    <div class="labelColumnContainer labelColumnContainerCat3"><label>Flavor</label></div>
-    <div class="labelColumnContainer"><label>Lubrication</label></div>
-    <div class="labelColumnContainer labelColumnContainerCat2"><label>Size</label></div>
-    <div class="labelColumnContainer labelColumnContainerCat2"><label>Qnty.</label></div>
-    <div class="clear"></div>
-  </div>
+<div class="orderInsideContainer"> 
   <form action="" method="post" id="" name="">
+    <div class="mandatoryBoxContainer">
+      <div class="singleMandatory">
+        <div class="mandatoryLabel commentLabel"><label>Name:</label></div>
+        <div class="mandatoryText"><input type="text" name="name" class="textBoxComment"/></div>
+        <div class="clear"></div>
+      </div>
+      <div class="singleMandatory">
+        <div class="mandatoryLabel commentLabel"><label>E-mail:</label></div>
+        <div class="mandatoryText"><input type="text" name="email" class="textBoxComment"/></div>
+        <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="formLabelContainer">
+      <div class="labelColumnContainer"><label>Standard</label></div>
+      <div class="labelColumnContainer"><label>Type</label></div>
+      <div class="labelColumnContainer labelColumnContainerCat3"><label>Color</label></div>
+      <div class="labelColumnContainer labelColumnContainerCat3"><label>Flavor</label></div>
+      <div class="labelColumnContainer"><label>Lubrication</label></div>
+      <div class="labelColumnContainer labelColumnContainerCat2"><label>Size</label></div>
+      <div class="labelColumnContainer labelColumnContainerCat2"><label>Qnty.</label></div>
+      <div class="clear"></div>
+    </div>
     <div class="total" id="total">
       <div class="singleRow" id="row-0">
         <div class="dataColumnContainer" id="column-0-0">
@@ -64,13 +77,9 @@
             <textarea cols="30" rows="5"></textarea>
           </div>
         </div>
-        <div class="commentRight">
-          <div class="commentLabel"><label>Name</label></div>
-          <div class=""><input type="text" name="name" class="textBoxComment"/></div>
-          <div class="commentLabel"><label>E-mail</label></div>
-          <div class=""><input type="text" name="email" class="textBoxComment"/></div>
+        <div class="commentRight">         
           <div class="commentLabel"><label>Mailing Address</label></div>
-          <div><textarea cols="23" rows="2"></textarea></div>
+          <div><textarea cols="30" rows="5"></textarea></div>
         </div>
         <div class="clear"></div>
       </div>

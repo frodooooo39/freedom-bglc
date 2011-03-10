@@ -16,8 +16,9 @@ root {
 }
 
 body{
-  background:url(../images/background-body.png) repeat-x scroll top left #F2F2F2;
-  position:relative;
+  background:url(../images/background-body-new.png) repeat-x scroll top left transparent;
+/*background-color:#000;*/
+  position:relative;  
 }
 
 .masterContainer{
@@ -27,7 +28,7 @@ body{
 }
 
 .homeContentWrapper{
-  margin:0px 0px 0px 0px;
+  margin:50px 0px 0px 0px;
 
   -moz-box-shadow:1px 5px 25px 5px #000000;
   -webkit-box-shadow:1px 5px 25px 5px #000000;
@@ -58,11 +59,11 @@ body{
 }
 
 .logoContainer label {
-  color: #fbad3e;
-  font-family: serif;
-  font-size: 16px;
+  color: Sienna;
+  /*  font-family: sans-serif;*/
+  font-size: 30px;
   font-style: italic;
-  font-weight: bold;
+  font-weight: bolder;
   letter-spacing: -0.8px;
   text-align: center;
   text-transform: capitalize;
@@ -71,43 +72,44 @@ body{
 .logoContainer div {
   left: 100px;
   position: absolute;
-  text-align: center;
-  top: 35px;
+  text-align: left;
+  top: 47px;
+  width:700px;  
 }
 
 .menuContainer{
-  background:url(../images/topblue.jpg) repeat-x scroll top left #08088A;
-  /*  background:url(../images/bluebg.png) repeat scroll top left transparent;*/
+  background-color: #ed1c24;
   position:relative;
-  width:600px;
-  height:50px;
+  width:960px;
+  height:35px;
   float:right;
-  margin-top: 26px;
+  margin-top: 11px;
 }
 
 .menuContainer ul{
   list-style:none;
-  margin-left:15px;
-  margin-top:16px;
+  margin-left:40px;
+  margin-top:5px;
 }
 
 .menuContainer ul li{
   display:inline;
-  margin:0px 7px 0px 0px;
+  margin:0px 25px;
 }
 
 .menuContainer ul li a{
   font-family:Arail,Trebuchet-MS,Helvetica,Tahoma,sans-serif;
-  font-size:13px;
+  font-size:14px;
   font-weight:bold;
-  letter-spacing:-0.5px;
-  color:#fbad3e;
+  letter-spacing:0.5px;
+  /*color:#fbad3e;*/
+  color:BlanchedAlmond;
   text-decoration:none;
 }
 
 .menuContainer ul li a:hover{
   text-decoration:underline;
-  color:#FF0000;
+  color:black;
 }
 
 .menuContainer ul li a.activeTab{
@@ -201,6 +203,24 @@ img{
   border:1px solid #000000;
 }
 
+.captions {
+  background:url(../images/red_pull_1.png) repeat scroll top left transparent;
+  /*  background-color: #ed1c24;*/
+  color: #CC9C38;
+  font-family: cursive,sans-serif,Arial,Trebuchet-MS;
+  font-size: 11px;
+  font-weight: bold;
+  height: 60px;
+  letter-spacing: 0;
+  margin: -75px 0 0 566px;
+  /*  opacity: 0.1;*/
+  padding: 7px;
+  position: absolute;
+  width: 380px;
+  z-index: 1000;
+  display:none;
+}
+
 .activeProDtTmb{
   border:1px solid #FF0000;
 }
@@ -215,10 +235,12 @@ img{
 }
 
 .contentLeft{
-  background:url(../images/left_1.png) repeat scroll top left transparent;
+  background:url(../images/mission-background.png) repeat scroll top left transparent;
+  /*  background-color:#CC9C38;*/
+  /*  background-color:#fbad3e;*/
   height:290px;
-  width:580px;  
-  margin-left:5px;
+  width:580px;
+  margin:0px 0px 0px 10px;
   float:left;
 
   -moz-border-radius:0.7em 0.7em 0.7em 0.7em;

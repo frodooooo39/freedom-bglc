@@ -22,6 +22,7 @@
        <link rel="stylesheet" type="text/css" href="css/productionStyle.css">
        <link rel="stylesheet" type="text/css" href="css/certificateContactAboutUsStyle.css">
        <link rel="stylesheet" type="text/css" href="css/machineConstructionIE.css">
+       <link rel="stylesheet" type="text/css" href="css/orderPage.css">
    <![endif]-->
 
     <script type="text/javascript" src="script/jquery-1.js"></script>
@@ -39,7 +40,8 @@
         <ul class="nav">
           <li class="navitem"><a href="" class="navItemlink" showId="div-1">HOME</a></li>
           <li class="navitem"><a href="" class="navItemlink" showId="div-2">PRODUCTS</a></li>          
-          <li class="navitem"><a href="" class="navItemlink" showId="div-4">MACHINE CONSTRUCTION</a></li>
+          <li class="navitem"><a href="" class="navItemlink" showId="div-4">MANUFACTURING</a></li>
+          <li class="navitem"><a href="" class="navItemlink" showId="div-7">QUALITY CONTROL</a></li>
           <li class="navitem"><a href="" class="navItemlink" showId="div-5">ABOUT US</a></li>
           <li class="navitem"><a href="" class="navItemlink" showId="div-6">CONTACT US</a></li>
           <li class="navitem"><a href="" class="navItemlink" showId="div-3">INQUIRY</a></li>
@@ -57,9 +59,9 @@
                   <div id="bannerContent-1" class="slideImageHolder"><a href="#"><img width="960px" height="400px" src="freedom_images/team.png" alt="" /></a>
                     <div class="captions"><p>Take your game to the next level with freedom Condoms premium condom collection.</p></div>
                   </div>
-<!--                  <div id="bannerContent-1" class="slideImageHolder"><a href="#"><img width="960px" height="400px" src="freedom_images/IMG_6374_slide_1.JPG" alt="" /></a>
-                    <div class="captions"><p>Take your game to the next level with freedom Condoms premium condom collection.</p></div>
-                  </div>-->
+                  <!--                  <div id="bannerContent-1" class="slideImageHolder"><a href="#"><img width="960px" height="400px" src="freedom_images/IMG_6374_slide_1.JPG" alt="" /></a>
+                                      <div class="captions"><p>Take your game to the next level with freedom Condoms premium condom collection.</p></div>
+                                    </div>-->
                   <div id="bannerContent-2" class="slideImageHolder"><a href="#"><img width="960px" height="400px" src="freedom_images/IMG_6349_slide_2.JPG" alt="" /></a>
                     <div class="captions"><p>Take your game to the next level with freedom Condoms premium condom collection.</p></div>
                   </div>
@@ -163,7 +165,10 @@
         </div>             
 
         <div id="machineConstructionContainer" class="hideShowContent defaultHide showDiv-4">
-          <jsp:include page="pages/machineConstruction.jsp"/>
+          <jsp:include page="pages/manufacturing.jsp"/>
+        </div>
+        <div id="qualityControlPageContainer" class="hideShowContent defaultHide showDiv-7">
+          <jsp:include page="pages/qualityControl.jsp"/>
         </div>
 
         <div id="aboutUsContainer" class="hideShowContent defaultHide showDiv-5">
