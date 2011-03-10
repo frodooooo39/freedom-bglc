@@ -113,15 +113,29 @@ root {
 
 .commentContainer{
   float:left;
-  width:500px;
+  width:600px;
   margin-top:20px;
-  padding-left:50px;
+  padding-left:30px;
+  padding-bottom:10px;
+  border:1px solid #F5A9A9;
 }
 
 .rowAddContainer{
   margin-top:20px;
   float:right;
-  width:70px;
+  width:165px;
+}
+
+#rowAddBtn{
+  font-family:Trebuchet-MS;
+  font-size:15px;  
+  color:#0B610B;
+  height:30px;  
+}
+
+#rowAddBtn:hover{
+  cursor:pointer;
+  color:#088A08;  
 }
 
 .rowAddContainer img{border:medium none;}
@@ -139,5 +153,36 @@ root {
 .commentContainer textarea,.commentContainer input{
   border: 1px outset #FF0000;
   padding:8px;
+}
+
+.commentContainer input{
+  height:10px;
+}
+
+.commentLeft{
+  float:left;
+  width:250px;
+}
+
+.commentRight{
+  float:right;
+  width:250px;
+}
+
+.submitBtnContainer{
+  margin-top:40px;
+}
+
+#submitBtn{
+  width:160px;
+  height:70px;
+
+  font-family:Trebuchet-MS;
+  font-size:20px;
+  color:#0B610B;  
+}
+
+#submitBtn:hover{
+  color:#088A08;  
 }
 /******************************** TEXT BOX STYLE HERE ***********************************/

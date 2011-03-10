@@ -58,18 +58,28 @@
     </div>
     <div class="additionalContainer">
       <div class="commentContainer">
-        <div class="commentLabel"><label>Message/Comment</label></div>
-        <div class="commentBox">
-          <textarea cols="50" rows="8"></textarea>
+        <div class="commentLeft">
+          <div class="commentLabel"><label>Message/Comment</label></div>
+          <div class="commentBox">
+            <textarea cols="30" rows="5"></textarea>
+          </div>
         </div>
-        <div class="commentLabel"><label>Name</label></div>
-        <div class=""><input type="text" name="name" class="textBoxComment"/></div>
-        <div class="commentLabel"><label>E-mail</label></div>
-        <div class=""><input type="text" name="email" class="textBoxComment"/></div>
-        <div class="commentLabel"><label>Mailing Address</label></div>
-        <div><textarea cols="30" rows="5"></textarea></div>
+        <div class="commentRight">
+          <div class="commentLabel"><label>Name</label></div>
+          <div class=""><input type="text" name="name" class="textBoxComment"/></div>
+          <div class="commentLabel"><label>E-mail</label></div>
+          <div class=""><input type="text" name="email" class="textBoxComment"/></div>
+          <div class="commentLabel"><label>Mailing Address</label></div>
+          <div><textarea cols="23" rows="2"></textarea></div>
+        </div>
+        <div class="clear"></div>
       </div>
-      <div class="rowAddContainer" id="rowAddContainer"><input type="button" id="" value="add more inqury"></div>
+      <div class="rowAddContainer" id="rowAddContainer">
+        <input type="button" id="rowAddBtn" value="Add More Inquiry">
+        <div class="submitBtnContainer">
+          <input type="submit" name="" value="SUBMIT" id="submitBtn"/>
+        </div>
+      </div>
       <div class="clear"></div>
     </div>
   </form>

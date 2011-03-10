@@ -42,7 +42,7 @@
           <li class="navitem"><a href="" class="navItemlink" showId="div-4">MACHINE CONSTRUCTION</a></li>
           <li class="navitem"><a href="" class="navItemlink" showId="div-5">ABOUT US</a></li>
           <li class="navitem"><a href="" class="navItemlink" showId="div-6">CONTACT US</a></li>
-          <li class="navitem"><a href="" class="navItemlink" showId="div-3">ORDERS</a></li>
+          <li class="navitem"><a href="" class="navItemlink" showId="div-3">INQUIRY</a></li>
         </ul>
       </div>
       <div class="clear"></div>
